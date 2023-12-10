@@ -21,7 +21,7 @@ const Testimonials = () => {
             <div className='client__avatar'>
                 <img src= {AVTR1}/>
             </div>
-            <h5 className='client__name'>Shivam Chhuneja</h5>
+            <h5 className='client__name'> <a href='https://www.linkedin.com/in/shivamchhuneja/'>Shivam Chhuneja</a></h5>
             <small className='client__review'>"Her designs are simple yet eye catching. Always a pleasure to work with her!"</small>
         </SwiperSlide>
 

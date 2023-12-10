@@ -3,7 +3,7 @@ import "./About.css"
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import FilePresentOutlinedIcon from '@mui/icons-material/FilePresentOutlined';
-import GIF from "../../assets/coding.gif"
+
 
 const About = () => {
   return (
@@ -14,30 +14,30 @@ const About = () => {
      <div className='container about__container'>
       <div className='about__me'>
         <div className='about__me-image'>
-          <img src= {GIF} alt=''/>
+        
         </div>
       </div>
 
     <div className='about__content'>
       <div className='about__cards'>
 
-      <artcle className="about__card">
+      <article className="about__card">
           <CodeOutlinedIcon className='about__icon'/>
           <h5>Tech Stack</h5>
           <small>MERN Stack</small>
-        </artcle>
+        </article>
 
-        <artcle className="about__card">
+        <article className="about__card">
           <FilePresentOutlinedIcon className='about__icon'/>
           <h5>Projects</h5>
-          <small>Projects done using the popular technologies</small>
-        </artcle>
+          <small>Built with popular tech stack</small>
+        </article>
 
-        <artcle className="about__card">
+        <article className="about__card">
           <PeopleAltOutlinedIcon className='about__icon'/>
           <h5>Clients</h5>
           <small>UI design work</small>
-        </artcle>
+        </article>
 
       </div>
 

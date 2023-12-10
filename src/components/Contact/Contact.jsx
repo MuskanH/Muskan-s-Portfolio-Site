@@ -33,14 +33,14 @@ const Contact = () => {
             <MailOutlineIcon className='contact__option-icon'/>
                 <h4>Email</h4>
                 <h5>muskan159k@gmail.com</h5>
-                <a href='mailto:muskan159k@gmail.com'>Send A Message</a>
+                <a href='mailto:muskan159k@gmail.com'>Click to send a mail</a>
             </article>
 
             <article className='contact__option'>
             <WhatsAppIcon className='contact__option-icon'/>
                 <h4>WhatsApp</h4>
                 <h5>6353536813</h5>
-                <a href='https://api.whatsapp.com/send?phone=6353536813'>Send A Message</a>
+                <a href='https://api.whatsapp.com/send?phone=6353536813'>Click to send a message</a>
             </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
