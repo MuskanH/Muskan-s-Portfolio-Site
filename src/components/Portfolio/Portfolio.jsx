@@ -3,7 +3,7 @@ import "./Portfolio.css"
 import IMG1 from "../../assets/Frame1.png"
 import IMG2 from "../../assets/Frame2.png"
 import IMG3 from "../../assets/Frame3.png"
-import IMG4 from "../../assets/Frame4.png"
+import IMG4 from "../../assets/Frame 4.png"
 
 const Portfolio = () => {
   return (
