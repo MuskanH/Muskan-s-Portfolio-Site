@@ -36,6 +36,11 @@ const Experience = () => {
                     < VerifiedIcon  className='experience__icons'/>
                     <h4>React</h4>
                 </article>
+
+                <article className='experience__details'>
+                    < VerifiedIcon  className='experience__icons'/>
+                    <h4>Tailwind CSS</h4>
+                </article>
              </div>
             </div>
 
