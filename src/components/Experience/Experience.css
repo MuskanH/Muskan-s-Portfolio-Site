@@ -66,13 +66,13 @@
    .experience__container{
     grid-template-columns: 1fr;
     display: grid;
-    width: 400px;
+    width: 90%;
     gap: 1rem;
     margin: auto;
    }
 
    .experience__container>div{
-    width: 90%;
+    width: 100%;
     padding: 2rem 0.5rem;
    }
 
