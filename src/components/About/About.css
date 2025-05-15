@@ -13,9 +13,9 @@
     overflow: hidden;
     height: 400px;
     width: 400px;
-    background-image: url("../../assets/profile.jpg");
-    background-size: cover;
-   
+    background-image: url("../../assets/muskann.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 
