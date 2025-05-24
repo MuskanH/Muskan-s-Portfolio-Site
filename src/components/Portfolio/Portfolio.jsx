@@ -6,6 +6,10 @@ import IMG3 from "../../assets/Frame3.png"
 import IMG4 from "../../assets/Frame 4.png"
 import IMG5 from "../../assets/Frame 5.png"
 import IMG6 from "../../assets/Frame 6.png"
+import IMG7 from "../../assets/Frame7.png"
+import IMG8 from "../../assets/Frame8.png"
+import IMG9 from "../../assets/Frame9.png"
+import IMG10 from "../../assets/Frame10.png"
 
 const Portfolio = () => {
   return (
@@ -15,11 +19,33 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
 
+        <article className='portfolio__item'>
+        <div className='portfolio__item-image'>
+         <img src= {IMG7}/>
+        </div>
+        <h3>The Kuka</h3>
+        <div className='portfolio__item-cta'>
+        {/* <a href='https://github.com/MuskanH/Wanderlust-project' className='btn' target='_blank'>GitHub</a> */}
+        <a href='https://thekuka.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+       </article>
+
+        <article className='portfolio__item'>
+        <div className='portfolio__item-image'>
+         <img src= {IMG9}/>
+        </div>
+        <h3>Divyajivan</h3>
+        <div className='portfolio__item-cta'>
+        {/* <a href='https://github.com/MuskanH/Wanderlust-project' className='btn' target='_blank'>GitHub</a> */}
+        <a href='https://sivanandashram.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+       </article>
+
       <article className='portfolio__item'>
         <div className='portfolio__item-image'>
          <img src= {IMG5}/>
         </div>
-        <h3>Radiant Planks</h3>
+        <h3>Radiant Planks Website</h3>
         <div className='portfolio__item-cta'>
         {/* <a href='https://github.com/MuskanH/Wanderlust-project' className='btn' target='_blank'>GitHub</a> */}
         <a href='https://radiantplanks.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -41,10 +67,43 @@ const Portfolio = () => {
         <div className='portfolio__item-image'>
          <img src= {IMG6}/>
         </div>
-        <h3>DR. CRM</h3>
+        <h3>DR. CRM Software</h3>
         <div className='portfolio__item-cta'>
         {/* <a href='https://github.com/MuskanH/Wanderlust-project' className='btn' target='_blank'>GitHub</a> */}
         <a href='https://www.linkedin.com/posts/muskan-chavda-7308a31a3_crm-application-for-doctors-key-features-activity-7283784449492725760-PQbW?utm_source=share&utm_medium=member_desktop' className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+       </article>
+
+       <article className='portfolio__item'>
+        <div className='portfolio__item-image'>
+         <img src= {IMG6}/>
+        </div>
+        <h3>DR. CRM Website</h3>
+        <div className='portfolio__item-cta'>
+        {/* <a href='https://github.com/MuskanH/Wanderlust-project' className='btn' target='_blank'>GitHub</a> */}
+        <a href='https://www.docschedule.in/' className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+       </article>
+
+        <article className='portfolio__item'>
+        <div className='portfolio__item-image'>
+         <img src= {IMG10}/>
+        </div>
+        <h3>IELTS Visa</h3>
+        <div className='portfolio__item-cta'>
+        {/* <a href='https://github.com/MuskanH/Wanderlust-project' className='btn' target='_blank'>GitHub</a> */}
+        <a href='https://ieltsvisa.in/' className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+       </article>
+
+        <article className='portfolio__item'>
+        <div className='portfolio__item-image'>
+         <img src= {IMG8}/>
+        </div>
+        <h3>ERP CA</h3>
+        <div className='portfolio__item-cta'>
+        {/* <a href='https://github.com/MuskanH/Wanderlust-project' className='btn' target='_blank'>GitHub</a> */}
+        {/* <a href='https://www.linkedin.com/posts/muskan-chavda-7308a31a3_crm-application-for-doctors-key-features-activity-7283784449492725760-PQbW?utm_source=share&utm_medium=member_desktop' className='btn btn-primary' target='_blank'>Live Demo</a> */}
         </div>
        </article>
 
