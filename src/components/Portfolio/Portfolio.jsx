@@ -10,6 +10,7 @@ import IMG7 from "../../assets/Frame7.png"
 import IMG8 from "../../assets/Frame8.png"
 import IMG9 from "../../assets/Frame9.png"
 import IMG10 from "../../assets/Frame10.png"
+import IMG11 from "../../assets/Frame11.png"
 
 const Portfolio = () => {
   return (
@@ -18,6 +19,17 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
+
+        <article className='portfolio__item'>
+        <div className='portfolio__item-image'>
+         <img src= {IMG11}/>
+        </div>
+        <h3>Brain Twister</h3>
+        <div className='portfolio__item-cta'>
+        {/* <a href='https://github.com/MuskanH/Wanderlust-project' className='btn' target='_blank'>GitHub</a> */}
+        <a href='https://www.braintwister.in/' className='btn btn-primary' target='_blank'>Live Demo</a>
+        </div>
+       </article>
 
         <article className='portfolio__item'>
         <div className='portfolio__item-image'>
